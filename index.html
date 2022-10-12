@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House - Заказ кофе</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Coffee House</h1>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <input type="text" class="input secondName" placeholder="Введите Фамилию">
+            <input type="text" class="input firstName" placeholder="Введите Имя">    
+        </div>
+        <ul class="order-list">
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Эспрессо 80р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Шоколадный кекс 80р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Латте 110р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Черничный кекс 90р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Капучино 120р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Яблочный тарт 100р.
+                </label>
+                <input type="text" class="input" value="0">
+            </li>
+            <li class="order-item">
+                <label>
+                    <input type="checkbox" class="checkbox" name="orders" value="80">
+                    Американо 90р.
+                </label>
+                <input type="text" class="input input-value" value="0">
+            </li>
+        </ul>
+        <p class="result">Итого: <span class="result-number">0</span> р.</p>
+        <button class="btn">Оформить заказ</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
